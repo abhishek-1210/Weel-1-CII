@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hotel Paradise</title>
+        <link rel="stylesheet" type="text/css" href="styling.css">
+    </head>
+    <body>
+        <header id="mainHeader">
+            <div class="container">
+                <h1>Hotel Paradise</h1>
+            </div>
+        </header>
+        <nav id="navbar">
+            <div class="container">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+			        <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="#booking">Booking</a></li>
+			        <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section>
+            <div class="container-1">
+                <a href="#home"><h1>Comfort At Your Doorstep</h1></a>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="box-1">
+                <a href="#about"><h2>About</h2></a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In minus delectus laboriosam quibusdam corrupti necessitatibus aperiam, maxime accusamus reiciendis, consequuntur ab voluptatibus sapiente recusandae perferendis minima? Necessitatibus sapiente aperiam dolore.</p>
+            </div>
+        </section>
+        <br>
+        <section id="rooms">
+            <div class="box-2">
+                <a href="#rooms"><h2>Rooms</h2></a>
+                <div class="block">
+                    <h3>Basic Suite</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    </p>
+                    <img class="basicSuite" src="Images/basicSuite.jpg">
+                </div>
+                <div class="block">
+                    <h3>Buisiness Suite</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    </p>
+                    <img class="buisinessSuite" src="Images/buisinessSuite.jpg">
+                </div>
+                <div class="block">
+                    <h3>Premium Suite</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    </p>
+                    <img class="premiumSuite" src="Images/premiumSuite.jpg">
+                </div>
+                <div class="block">
+                    <h3>Luxury Suite</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    </p>
+                    <img class="luxurySuite" src="Images/luxurySuite.jpg">
+                </div>
+            </div>
+        </section>
+        <br>
+        <section id="booking">
+            <div class="box-3">
+                <a href="#booking"><h2>Booking</h2></a>
+                <form action="process.php" method="POST">
+                    <div>
+                        <label>First Name</label>
+                        <input type="text" name="firstName" placeholder="Enter First Name">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Last Name</label>
+                        <input type="text" name="lastName" placeholder="Enter Last Name">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Email</label>
+                        <input type="email" name="email" placeholder="Email">
+                    </div>
+                    <br>
+                    <div>
+                        <label name="members">Number of Guests</label>
+                            <select>
+                                <option aria-placeholder="select">select</option>
+                                <option value="1">1</option>
+					            <option value="2">2</option>
+					            <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="other">Other</option>
+                            </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label>Check-In:</label>
+                        <input type="date" name="checkIn">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Check-Out:</label>
+                        <input type="date" name="checkOut">
+                    </div>
+                    <br>
+                        <input type="button" name="payment" value="Pay Now">
+                    <br>
+                    </form>
+                </div>
+        </section>
+        <br>
+        <section id="contact">
+            <div class="box-4">
+                <a href="#contact"><h2>Contact</h2></a>
+                <p>Phone: +1-800-266-8228</p>
+                <p>Email: hotel.paradise@helpdesk.com</p>
+            </div>
+        </section>
+        <br>
+        <footer>
+            <div class="box-5">
+                <p>Copyright &copy; 2021 Hotel Paradise</p>
+            </div>
+        </footer>
+
+    </body>
